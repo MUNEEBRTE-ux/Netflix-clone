@@ -236,8 +236,12 @@ input[type="email"] {
   flex-wrap: wrap;
   margin: 30px;
 }
-.trend img {
+.trend div {
+  overflow: hidden;
+
   border-radius: 10px;
+}
+.trend img {
   transition: all;
   transition-duration: 1s;
 }
@@ -252,7 +256,7 @@ input[type="email"] {
   padding: 40px;
 }
 .trend img:hover {
-  scale: 0.9;
+  transform: scale(1.1);
 }
 
 .trending h1 {
