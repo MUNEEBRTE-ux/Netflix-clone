@@ -30,6 +30,7 @@ body {
 .navbut {
   padding: 3px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -42,6 +43,7 @@ body {
 .maincont {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   color: white;
   width: 550px;
@@ -170,6 +172,7 @@ input[type="email"] {
 }
 .member {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
